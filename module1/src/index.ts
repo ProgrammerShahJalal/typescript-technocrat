@@ -1,7 +1,7 @@
-let course = 'Next level web development course'
-const students = ['John', 'Jane',
+let course : string = 'Next level web development course'
+const students : string[] = ['John', 'Jane',
 'Peter', 'Paul']
-let index = 0;
+let index : number = 0;
 function nextStudent() {
     if (index >= students.length) return console.log('The course is complete!')
     else console.log(`Today we study ${students[index]} in the ${course}`)
