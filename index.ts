@@ -8,3 +8,5 @@ function nextStudent() {
     index++
     setTimeout(nextStudent, 2 * 1000)
 }
+
+nextStudent()
