@@ -16,7 +16,7 @@
 
     const {id, name: {firstName}, adress, contact} = user;
 
-// array destructuring
+// array destructuring, name alias
 
 const myFriends  = ["John", "Alice", "Bryan", "Chris", "David"];
 const [,, bestFriend, ...rest]=myFriends;
